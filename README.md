@@ -2,7 +2,8 @@
 
 Quick single page app for students to look at while waiting for sessions to start or during breaks.
 
-Instructor to share this screen so everyone knows how long until something happens!
+Instructor to share this screen so everyone knows how long until something happens! As it's assumed that this would only ever be shared while on a computer, it is NOT styled for mobile (and I'm probably not going to - though feel free to do it and send a PR if that's your thing.)
+
 The button to open the sidebar is hidden in the top left corner and will display on hover.
 
 Set the title, a little message, background image (optional) and the timer.
