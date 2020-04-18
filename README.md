@@ -11,3 +11,5 @@ This also plays videos (loops through a handful of Code Nation youtube vids) - t
 Also, remember to always go retro.
 
 If you have any ideas for additional features just make a pull request.
+
+![demo](/waitingscreen480.gif)
