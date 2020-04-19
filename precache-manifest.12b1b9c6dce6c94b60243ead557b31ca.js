@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d29e38107b2523611a96e28cc972def5",
+    "revision": "1efcafa26ca487d6a69ed4c586a7625e",
     "url": "/waitforit/index.html"
   },
   {
