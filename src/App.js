@@ -19,19 +19,12 @@ const App = () => {
   const [showVid, setShowVid] = useState(false);
   const [background, setBackground] = useState(null);
   const [logo, setLogo] = useState(false);
+  const [error, setError] = useState("");
 
   const convertTime = (min, sec) => {
     let minsInMilli = min * 60 * 1000;
     let secsInMilli = sec * 1000;
     return minsInMilli + secsInMilli;
-  };
-
-  const checkValidImage = (background) => {
-    if (background.match(/\.(jpeg|jpg|gif|png)$/) != null) {
-      setBackground(background);
-    } else {
-      setBackground(null);
-    }
   };
 
   const grabMin = (event) => {
@@ -45,6 +38,14 @@ const App = () => {
     event.preventDefault();
     const total = convertTime(curMin, curSec);
     setCurTotal(total);
+  };
+
+  const validatePaste = (event) => {
+    try {
+      setBackground(event.clipboardData.getData("Text"));
+    } catch (error) {
+      setError(error, "Invalid URL");
+    }
   };
 
   return (
@@ -65,8 +66,9 @@ const App = () => {
         showVid={showVid}
         setShowVid={setShowVid}
         background={background}
-        newBackground={(event) => checkValidImage(event.target.value)}
+        newBackground={validatePaste}
         logo={logo}
+        reset={() => setBackground(Leon)}
         setLogo={setLogo}
       />
       {showVid && <Video />}

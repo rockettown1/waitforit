@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const Sidebar = ({
@@ -16,7 +16,9 @@ const Sidebar = ({
   newBackground,
   logo,
   setLogo,
+  reset,
 }) => {
+  const [val, setVal] = useState("");
   //setup for options in select inputs
   const minsArr = [0, 1, 2, 3, 4];
   for (let i = 5; i <= 60; i += 5) {
@@ -35,9 +37,29 @@ const Sidebar = ({
         <label>Set a message for the timer</label>
         <input type="text" value={message} placeholder="Message" onChange={newMessage} />
         <label>
-          Change the background image <br /> (must be a url)
+          Change the background image <br />{" "}
+          <span style={{ fontSize: "0.9em" }}>
+            (must be a valid image url and must be pasted in - it listens for the paste event.)
+          </span>
         </label>
-        <input type="text" placeholder="Paste a url in here" onChange={newBackground} />
+        <input
+          type="text"
+          placeholder="Paste a url in here"
+          onPaste={(event) => {
+            newBackground(event);
+          }}
+          onChange={(event) => setVal(event.target.value)}
+          contentEditable="true"
+          value={val}
+        />
+        <SecondaryButton
+          onClick={() => {
+            reset();
+            setVal("");
+          }}
+        >
+          Reset Default Image
+        </SecondaryButton>
         <select onChange={(event) => grabMin(event)}>
           <option>Set mins:</option>
           {minsArr.map((min) => {
@@ -59,10 +81,14 @@ const Sidebar = ({
           <input type="checkbox" onClick={() => setLogo(!logo)} />
         </CheckBoxDiv>
 
-        <Start>Start Timer</Start>
-
-        <Close onClick={() => setShow(!show)}>Close Sidebar</Close>
+        <Start onClick={() => setShow(!show)}>Start Timer</Start>
       </StyledForm>
+      <SecondaryButton
+        onClick={() => setShow(!show)}
+        style={{ position: "absolute", right: 0, bottom: 0, marginRight: "20px" }}
+      >
+        Close Sidebar
+      </SecondaryButton>
     </Container>
   );
 };
@@ -116,13 +142,10 @@ const StyledForm = styled.form`
   }
 `;
 
-const Close = styled.button`
+const SecondaryButton = styled.p`
   background-color: #f5b32e;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 75px;
-  margin-right: 20px;
+  font-size: 10px;
+  width: 100px;
   border-radius: 5px;
   padding: 5px;
   color: black;
