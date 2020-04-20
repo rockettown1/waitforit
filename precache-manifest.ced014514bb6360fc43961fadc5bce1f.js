@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1efcafa26ca487d6a69ed4c586a7625e",
+    "revision": "3a98fe70d7af9ed076a509de13720948",
     "url": "/waitforit/index.html"
   },
   {
-    "revision": "9fa084ba9b9ec4c80302",
+    "revision": "4ca9fe84e182c7f0ebfa",
     "url": "/waitforit/static/css/2.a33d7f97.chunk.css"
   },
   {
-    "revision": "dafc96d8088c01b5ad12",
+    "revision": "7a0195f38c494eb9ef02",
     "url": "/waitforit/static/css/main.f9f8f5f7.chunk.css"
   },
   {
-    "revision": "9fa084ba9b9ec4c80302",
-    "url": "/waitforit/static/js/2.561b4996.chunk.js"
+    "revision": "4ca9fe84e182c7f0ebfa",
+    "url": "/waitforit/static/js/2.e04f27ad.chunk.js"
   },
   {
     "revision": "8a9adb48f7af2062183ac70b4922c4ef",
-    "url": "/waitforit/static/js/2.561b4996.chunk.js.LICENSE.txt"
+    "url": "/waitforit/static/js/2.e04f27ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dafc96d8088c01b5ad12",
-    "url": "/waitforit/static/js/main.32e557ee.chunk.js"
+    "revision": "7a0195f38c494eb9ef02",
+    "url": "/waitforit/static/js/main.2175a77d.chunk.js"
   },
   {
     "revision": "f42858311dce4da71960",
