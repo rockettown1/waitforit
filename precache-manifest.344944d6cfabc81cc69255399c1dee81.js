@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13a7fb0936a5d767520648caf0a8ffb2",
+    "revision": "d5027815cd06d25a5140d2fcec55f050",
     "url": "/waitforit/index.html"
   },
   {
-    "revision": "ff5669a699d51cef2aaa",
+    "revision": "24fc4db8a552a5664cd1",
     "url": "/waitforit/static/css/2.a33d7f97.chunk.css"
   },
   {
-    "revision": "89a7a48ec62560699a57",
+    "revision": "0ab4f0d18f3efa7fc4e6",
     "url": "/waitforit/static/css/main.f9f8f5f7.chunk.css"
   },
   {
-    "revision": "ff5669a699d51cef2aaa",
-    "url": "/waitforit/static/js/2.802779a9.chunk.js"
+    "revision": "24fc4db8a552a5664cd1",
+    "url": "/waitforit/static/js/2.7f5158ef.chunk.js"
   },
   {
     "revision": "8a9adb48f7af2062183ac70b4922c4ef",
-    "url": "/waitforit/static/js/2.802779a9.chunk.js.LICENSE.txt"
+    "url": "/waitforit/static/js/2.7f5158ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "89a7a48ec62560699a57",
-    "url": "/waitforit/static/js/main.a490fff1.chunk.js"
+    "revision": "0ab4f0d18f3efa7fc4e6",
+    "url": "/waitforit/static/js/main.d5e22951.chunk.js"
   },
   {
     "revision": "f42858311dce4da71960",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21daf0eb5c6c7c11ae1dde001060934d",
     "url": "/waitforit/static/media/Codenation.21daf0eb.png"
+  },
+  {
+    "revision": "5cefb1e7ff15094755b078c9ee932b16",
+    "url": "/waitforit/static/media/Digital-Academy-logo-Colour-PNG-CMYK-980x690 (1).5cefb1e7.png"
   },
   {
     "revision": "f1b11487efba071ccb5531231fd7a673",
