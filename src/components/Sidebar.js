@@ -91,7 +91,7 @@ const Sidebar = ({
         </CheckBoxDiv>
         <CheckBoxDiv>
           <label>Go Cambridge</label>
-          <input type="checkbox" onClick={() => setCam(!logo)} />
+          <input type="checkbox" onClick={() => setCam(!cam)} />
         </CheckBoxDiv>
 
         <Start
