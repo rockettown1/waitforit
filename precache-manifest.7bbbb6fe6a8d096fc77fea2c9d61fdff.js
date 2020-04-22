@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a98fe70d7af9ed076a509de13720948",
+    "revision": "13a7fb0936a5d767520648caf0a8ffb2",
     "url": "/waitforit/index.html"
   },
   {
-    "revision": "4ca9fe84e182c7f0ebfa",
+    "revision": "ff5669a699d51cef2aaa",
     "url": "/waitforit/static/css/2.a33d7f97.chunk.css"
   },
   {
-    "revision": "7a0195f38c494eb9ef02",
+    "revision": "89a7a48ec62560699a57",
     "url": "/waitforit/static/css/main.f9f8f5f7.chunk.css"
   },
   {
-    "revision": "4ca9fe84e182c7f0ebfa",
-    "url": "/waitforit/static/js/2.e04f27ad.chunk.js"
+    "revision": "ff5669a699d51cef2aaa",
+    "url": "/waitforit/static/js/2.802779a9.chunk.js"
   },
   {
     "revision": "8a9adb48f7af2062183ac70b4922c4ef",
-    "url": "/waitforit/static/js/2.e04f27ad.chunk.js.LICENSE.txt"
+    "url": "/waitforit/static/js/2.802779a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a0195f38c494eb9ef02",
-    "url": "/waitforit/static/js/main.2175a77d.chunk.js"
+    "revision": "89a7a48ec62560699a57",
+    "url": "/waitforit/static/js/main.a490fff1.chunk.js"
   },
   {
     "revision": "f42858311dce4da71960",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fc2e191c9c4bf931adcf022ee32819b9",
     "url": "/waitforit/static/media/wearecodenation.fc2e191c.png"
+  },
+  {
+    "revision": "958e17ffcdb43014ea2aa9ffdd7c9086",
+    "url": "/waitforit/static/media/zoomOptions.958e17ff.png"
   }
 ]);

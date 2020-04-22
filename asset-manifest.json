@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/waitforit/static/css/main.f9f8f5f7.chunk.css",
-    "main.js": "/waitforit/static/js/main.2175a77d.chunk.js",
-    "main.js.map": "/waitforit/static/js/main.2175a77d.chunk.js.map",
+    "main.js": "/waitforit/static/js/main.a490fff1.chunk.js",
+    "main.js.map": "/waitforit/static/js/main.a490fff1.chunk.js.map",
     "runtime-main.js": "/waitforit/static/js/runtime-main.86925709.js",
     "runtime-main.js.map": "/waitforit/static/js/runtime-main.86925709.js.map",
     "static/css/2.a33d7f97.chunk.css": "/waitforit/static/css/2.a33d7f97.chunk.css",
-    "static/js/2.e04f27ad.chunk.js": "/waitforit/static/js/2.e04f27ad.chunk.js",
-    "static/js/2.e04f27ad.chunk.js.map": "/waitforit/static/js/2.e04f27ad.chunk.js.map",
+    "static/js/2.802779a9.chunk.js": "/waitforit/static/js/2.802779a9.chunk.js",
+    "static/js/2.802779a9.chunk.js.map": "/waitforit/static/js/2.802779a9.chunk.js.map",
     "index.html": "/waitforit/index.html",
-    "precache-manifest.ced014514bb6360fc43961fadc5bce1f.js": "/waitforit/precache-manifest.ced014514bb6360fc43961fadc5bce1f.js",
+    "precache-manifest.7bbbb6fe6a8d096fc77fea2c9d61fdff.js": "/waitforit/precache-manifest.7bbbb6fe6a8d096fc77fea2c9d61fdff.js",
     "service-worker.js": "/waitforit/service-worker.js",
     "static/css/2.a33d7f97.chunk.css.map": "/waitforit/static/css/2.a33d7f97.chunk.css.map",
     "static/css/main.f9f8f5f7.chunk.css.map": "/waitforit/static/css/main.f9f8f5f7.chunk.css.map",
-    "static/js/2.e04f27ad.chunk.js.LICENSE.txt": "/waitforit/static/js/2.e04f27ad.chunk.js.LICENSE.txt",
+    "static/js/2.802779a9.chunk.js.LICENSE.txt": "/waitforit/static/js/2.802779a9.chunk.js.LICENSE.txt",
     "static/media/Codenation.png": "/waitforit/static/media/Codenation.21daf0eb.png",
     "static/media/Leon.jpg": "/waitforit/static/media/Leon.f1b11487.jpg",
-    "static/media/wearecodenation.png": "/waitforit/static/media/wearecodenation.fc2e191c.png"
+    "static/media/wearecodenation.png": "/waitforit/static/media/wearecodenation.fc2e191c.png",
+    "static/media/zoomOptions.png": "/waitforit/static/media/zoomOptions.958e17ff.png"
   },
   "entrypoints": [
     "static/js/runtime-main.86925709.js",
     "static/css/2.a33d7f97.chunk.css",
-    "static/js/2.e04f27ad.chunk.js",
+    "static/js/2.802779a9.chunk.js",
     "static/css/main.f9f8f5f7.chunk.css",
-    "static/js/main.2175a77d.chunk.js"
+    "static/js/main.a490fff1.chunk.js"
   ]
 }
