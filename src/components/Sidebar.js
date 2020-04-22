@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import Help from "./Help";
 
 const Sidebar = ({
   grabMin,
@@ -19,6 +20,7 @@ const Sidebar = ({
   reset,
 }) => {
   const [val, setVal] = useState("");
+  const [help, setHelp] = useState(false);
   //setup for options in select inputs
   const minsArr = [0, 1, 2, 3, 4];
   for (let i = 5; i <= 60; i += 5) {
@@ -30,8 +32,13 @@ const Sidebar = ({
   }
 
   return (
-    <Container show={show}>
+    <Container show={show} help={help}>
+      <Help />
       <StyledForm onSubmit={setTime}>
+        <h4 onClick={() => setHelp(!help)}>
+          If this is the first time you've used this web app please{" "}
+          <span style={{ color: "#f5b32e", cursor: "pointer" }}>click here</span>
+        </h4>
         <label>Set a title for the session</label>
         <input type="text" value={title} placeholder="Title" onChange={newTitle} />
         <label>Set a message for the timer</label>
@@ -81,10 +88,21 @@ const Sidebar = ({
           <input type="checkbox" onClick={() => setLogo(!logo)} />
         </CheckBoxDiv>
 
-        <Start onClick={() => setShow(!show)}>Start Timer</Start>
+        <Start
+          onClick={() => {
+            setShow(!show);
+            setHelp(false);
+          }}
+        >
+          Start Timer
+        </Start>
       </StyledForm>
+
       <SecondaryButton
-        onClick={() => setShow(!show)}
+        onClick={() => {
+          setShow(!show);
+          setHelp(false);
+        }}
         style={{ position: "absolute", right: 0, bottom: 0, marginRight: "20px" }}
       >
         Close Sidebar
@@ -100,14 +118,15 @@ const Container = styled.div`
   transition: all 1s;
   background-color: black;
   height: 100vh;
-  width: 350px;
+  width: 710px;
   top: 0;
   left: 0;
   z-index: 25;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: flex-end;
   color: white;
-  transform: ${({ show }) => (show ? "translateX(0)" : "translateX(-350px)")};
+  transform: ${({ show, help }) => (show ? (help ? "translateX(0)" : "translateX(-350px)") : "translateX(-710px)")};
 `;
 
 const StyledForm = styled.form`
@@ -115,6 +134,7 @@ const StyledForm = styled.form`
   flex-direction: column;
   width: 300px;
   padding: 20px;
+  margin-right: 10px;
 
   label {
     text-align: left;
