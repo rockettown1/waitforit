@@ -17,6 +17,8 @@ const Sidebar = ({
   newBackground,
   logo,
   setLogo,
+  cam,
+  setCam,
   reset,
 }) => {
   const [val, setVal] = useState("");
@@ -86,6 +88,10 @@ const Sidebar = ({
         <CheckBoxDiv>
           <label>Go retro</label>
           <input type="checkbox" onClick={() => setLogo(!logo)} />
+        </CheckBoxDiv>
+        <CheckBoxDiv>
+          <label>Go Cambridge</label>
+          <input type="checkbox" onClick={() => setCam(!logo)} />
         </CheckBoxDiv>
 
         <Start

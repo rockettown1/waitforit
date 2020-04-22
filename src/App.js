@@ -7,6 +7,7 @@ import styled from "styled-components";
 import Leon from "./assets/Leon.jpg";
 import CN from "./assets/Codenation.png";
 import WeAreCN from "./assets/wearecodenation.png";
+import DA from "./assets/Digital-Academy-logo-Colour-PNG-CMYK-980x690 (1).png";
 import Video from "./components/Video";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
   const [background, setBackground] = useState(null);
   const [logo, setLogo] = useState(false);
   const [error, setError] = useState("");
+  const [cambridge, setCambridge] = useState(false);
 
   const convertTime = (min, sec) => {
     let minsInMilli = min * 60 * 1000;
@@ -70,14 +72,15 @@ const App = () => {
         logo={logo}
         reset={() => setBackground(Leon)}
         setLogo={setLogo}
+        cam={cambridge}
+        setCam={setCambridge}
       />
       {showVid && <Video />}
       <Wrapper>
         <Message>{message}</Message>
         <Counter total={curTotal} setTime={setTime} setCurMin={setCurMin} setCurSec={setCurSec} />
       </Wrapper>
-
-      <CNRetro src={logo ? WeAreCN : CN} />
+      {cambridge ? <DALogo src={DA} /> : <CNRetro src={logo ? WeAreCN : CN} />}
     </AppContainer>
   );
 };
@@ -87,6 +90,16 @@ export default App;
 const CNRetro = styled.img`
   position: absolute;
   height: 100px;
+  width: auto;
+  bottom: 0;
+  left: 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+`;
+
+const DALogo = styled.img`
+  position: absolute;
+  height: 130px;
   width: auto;
   bottom: 0;
   left: 0;
