@@ -33,14 +33,19 @@ const Sidebar = ({
     secsArr.push(i);
   }
 
+  const Today = new Date();
+  console.log(Today.getMonth());
+
   return (
     <Container show={show} help={help}>
       <Help />
+
       <StyledForm onSubmit={setTime}>
-        <h4 onClick={() => setHelp(!help)}>
+        <h4 onClick={() => setHelp(!help)} style={{ marginTop: "35px" }}>
           If this is the first time you've used this web app please{" "}
           <span style={{ color: "#f5b32e", cursor: "pointer" }}>click here</span>
         </h4>
+
         <label>Set a title for the session</label>
         <input type="text" value={title} placeholder="Title" onChange={newTitle} />
         <label>Set a message for the timer</label>
@@ -102,8 +107,19 @@ const Sidebar = ({
         >
           Start Timer
         </Start>
+        <h5
+          style={{
+            marginBottom: 0,
+            position: "absolute",
+            top: 0,
+            left: 0,
+            marginLeft: "22px",
+            color: "#5e5c58",
+          }}
+        >
+          {"<"} Updated 23/04/2020
+        </h5>
       </StyledForm>
-
       <SecondaryButton
         onClick={() => {
           setShow(!show);
@@ -141,6 +157,7 @@ const StyledForm = styled.form`
   width: 300px;
   padding: 20px;
   margin-right: 10px;
+  position: relative;
 
   label {
     text-align: left;
