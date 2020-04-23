@@ -33,9 +33,6 @@ const Sidebar = ({
     secsArr.push(i);
   }
 
-  const Today = new Date();
-  console.log(Today.getMonth());
-
   return (
     <Container show={show} help={help}>
       <Help />
