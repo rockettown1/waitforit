@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74f68aeb730ba6cbc3292c67cbe6b277",
+    "revision": "a4398717fe0b52cc4af34ca130a9111c",
     "url": "/waitforit/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/waitforit/static/css/2.a33d7f97.chunk.css"
   },
   {
-    "revision": "2b46e553b4d258b80c00",
+    "revision": "fb21f0920b6a055086b3",
     "url": "/waitforit/static/css/main.f9f8f5f7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/waitforit/static/js/2.26b6fd12.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b46e553b4d258b80c00",
-    "url": "/waitforit/static/js/main.012f904f.chunk.js"
+    "revision": "fb21f0920b6a055086b3",
+    "url": "/waitforit/static/js/main.4d77cea3.chunk.js"
   },
   {
     "revision": "f42858311dce4da71960",
