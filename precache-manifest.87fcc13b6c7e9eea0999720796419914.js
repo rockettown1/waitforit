@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4398717fe0b52cc4af34ca130a9111c",
+    "revision": "0fa299ef7bb240fe2bfae7c1dbf71f14",
     "url": "/waitforit/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/waitforit/static/css/2.a33d7f97.chunk.css"
   },
   {
-    "revision": "fb21f0920b6a055086b3",
+    "revision": "826993772814fae1946e",
     "url": "/waitforit/static/css/main.f9f8f5f7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/waitforit/static/js/2.26b6fd12.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb21f0920b6a055086b3",
-    "url": "/waitforit/static/js/main.4d77cea3.chunk.js"
+    "revision": "826993772814fae1946e",
+    "url": "/waitforit/static/js/main.c6022b88.chunk.js"
   },
   {
     "revision": "f42858311dce4da71960",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/waitforit/static/media/Digital-Academy-logo-Colour-PNG-CMYK-980x690 (1).5cefb1e7.png"
   },
   {
-    "revision": "f1b11487efba071ccb5531231fd7a673",
-    "url": "/waitforit/static/media/Leon.f1b11487.jpg"
-  },
-  {
     "revision": "9c8f2ca180e3026d320fdcede921f010",
     "url": "/waitforit/static/media/manage.9c8f2ca1.png"
+  },
+  {
+    "revision": "a193cb6a0963ea7277078ad1b5ea179f",
+    "url": "/waitforit/static/media/meeting.a193cb6a.jpg"
   },
   {
     "revision": "01f23685e013dd538bf3d3a8dba3fa8b",
