@@ -3,7 +3,7 @@ import Youtube from "react-youtube";
 import styled from "styled-components";
 
 export default function Video() {
-  const CNYoutube = ["m2WOkT253uk", "Bb-0JJKST6M", "hj7eHceHjGA", "ZD0idqVjYAw"];
+  const CNYoutube = ["ZD0idqVjYAw", "CPxFos4vphQ", "pYsV5Ltm8Rw", "Oien2KXwtsY", "hj7eHceHjGA", "Bb-0JJKST6M"];
   const [number, setNumber] = useState(0);
 
   const opts = {

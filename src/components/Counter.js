@@ -25,8 +25,6 @@ const Counter = React.memo(({ total }) => {
     );
   };
 
-  console.log("I have been called");
-
   return (
     <div>
       <Countdown date={Date.now() + total} renderer={renderer} key={total} />

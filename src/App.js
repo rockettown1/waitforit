@@ -4,7 +4,7 @@ import "../node_modules/video-react/dist/video-react.css";
 import Counter from "./components/Counter";
 import Sidebar from "./components/Sidebar";
 import styled from "styled-components";
-import Leon from "./assets/Leon.jpg";
+import Meeting from "./assets/meeting.jpg";
 import CN from "./assets/Codenation.png";
 import WeAreCN from "./assets/wearecodenation.png";
 import DA from "./assets/Digital-Academy-logo-Colour-PNG-CMYK-980x690 (1).png";
@@ -51,7 +51,7 @@ const App = () => {
   };
 
   return (
-    <AppContainer className="App" back={background || Leon}>
+    <AppContainer className="App" back={background || Meeting}>
       <Button onClick={() => setShow(!show)}>Open SideBar</Button>
       <Title>{title}</Title>
       <BackgroundCover></BackgroundCover>
@@ -70,7 +70,7 @@ const App = () => {
         background={background}
         newBackground={validatePaste}
         logo={logo}
-        reset={() => setBackground(Leon)}
+        reset={() => setBackground(Meeting)}
         setLogo={setLogo}
         cam={cambridge}
         setCam={setCambridge}
@@ -169,5 +169,5 @@ const Message = styled.h1`
   position: relative;
   z-index: 9;
   color: white;
-  margin-top: 20px;
+  margin-top: 110px;
 `;
